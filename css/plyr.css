@@ -114,8 +114,8 @@
      color: white;
  }
  .container{
-      margin-top:300px;
-    padding-top: 2%;
+        position: absolute;
+     top: 50px;
      align-items: center;
      vertical-align: middle;
      width: 65%;
