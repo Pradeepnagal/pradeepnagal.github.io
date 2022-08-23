@@ -118,7 +118,7 @@
      top: 30px;
      align-items: center;
      vertical-align: middle;
-     width: 65%;
+     width: 90%;
  }
  
  
@@ -178,9 +178,9 @@
 
 }
 .card{
-  max-width: 1200px;
+  width: 90%;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -189,14 +189,14 @@
 .card .box{
   background: #e89ba4;
   width: calc(90% - 10px);
-  padding: 25px;
+  padding: 15px;
   border-radius: 3px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
 }
 .card .boxyt{
   background: #bfeaff;
   width: calc(90% - 10px);
-  padding: 25px;
+  padding: 15px;
   border-radius: 3px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
 }
