@@ -115,7 +115,7 @@
  }
  .container{
         position: absolute;
-     top: 50px;
+     top: 30px;
      align-items: center;
      vertical-align: middle;
      width: 65%;
@@ -180,7 +180,7 @@
 .card{
   max-width: 1200px;
   margin: auto;
-  padding: 10px 20px;
+  padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
