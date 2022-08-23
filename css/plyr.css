@@ -1,0 +1,337 @@
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+ @font-face {
+
+     font-family: Cyber;
+
+     src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+
+     font-display: swap;
+
+   }
+
+   
+
+   * {
+
+     box-sizing: border-box;
+
+   }
+
+   
+
+   body {
+
+     display: flex;
+
+     align-items: center;
+
+     flex-direction: column;
+
+     justify-content: center;
+
+     min-height: 100vh;
+
+     font-family: 'Cyber', sans-serif;
+
+     background: white;
+
+   }
+
+   
+
+   a{
+
+     text-decoration: none;
+
+     color: white;
+
+   }
+
+ 
+
+  
+
+ :root{
+
+     --bg-color: white;
+
+     --filename-color: #ff6915;
+
+     --footer-color: #fcc700;
+
+     --footer-font-color: black;
+
+ }
+
+ 
+
+ body{
+
+     height: 100%;
+
+     display: flex;
+
+     background-color:white;
+
+     background-size: 500%;
+
+     flex-direction: column;
+
+     margin: 0;
+
+     padding: 0;
+
+     align-items: center;
+
+     justify-content: center;
+
+     
+
+ }
+
+ 
+
+ body.cyber {
+
+     background-color: white;
+
+     
+
+ }
+
+ 
+
+ body.dark {
+
+     background-color:black;
+
+ }
+
+ 
+
+ header {
+
+     position: absolute;
+
+     top: 0;
+
+     justify-content: center;
+
+     flex-direction: row;
+
+     align-items: center;
+
+     width: 100%;
+
+ }
+
+ 
+
+ .toogle{
+
+    z-index: 1;
+
+     position: absolute;
+
+     margin: 1%;
+
+     right: 0;
+
+     display: flex;
+
+     justify-content: center;
+
+     align-items: center;
+
+     width: 3.5vh;
+
+     height: 3.5vh;
+
+     background-color: aliceblue;
+
+     cursor: pointer;
+
+     border-radius: 50%;
+
+ 
+
+ }
+
+ 
+
+ .toogle:before{
+
+     content: "\f186";
+
+     font-size: 2vh;
+
+     font-family: 'Font Awesome\ 5 Free';
+
+ }
+
+ 
+
+ body.dark .toogle:before {
+
+     content: '\f185';
+
+ }
+
+ 
+
+ #file-name {
+
+     display: flex;
+
+     text-align: center;
+
+     justify-content: center;
+
+     color: var(--filename-color);
+
+     font-size: 2rem;
+
+     font-family: 'Raleway', sans-serif;
+
+ }
+
+ #file-name.cyber {
+
+     display: flex;
+
+     justify-content: center;
+
+     color: black;
+
+     font-size: 2rem;
+
+     font-family: 'Raleway', sans-serif;
+
+ }
+
+ 
+
+ #file-name.dark {
+
+     color: white;
+
+ }
+
+ .container{
+
+     padding-top: 1%;
+
+     text-align: center;
+
+     vertical-align: middle;
+
+     width: 65%;
+
+ }
+
+ 
+
+ 
+
+ @media only screen and (max-width: 900px) {
+
+     .container {
+
+         width: 90%;
+
+     }
+
+     #file-name{
+
+       font-size: 4vh;
+
+     }
+
+ }
+
+ footer {
+
+     height: 1.5rem;
+
+     padding-left: 100px;
+
+     padding-right: 30px;
+
+     position: fixed;
+
+     justify-content: flex-end;
+
+     align-items: center;
+
+     width: 100%;
+
+     right: 0px;
+
+     bottom: 0;
+
+     background-color: white; 
+
+     font-family: Delius;
+
+     display: flex;
+
+     border-top: 1px solid var(--border-color);
+
+     box-sizing: border-box;
+
+ }
+
+ 
+
+ footer.dark {
+
+     background-color: var(--footer-color);
+
+ }
+
+ 
+
+.ads{
+
+    margin-top:70px;
+
+    padding-top: 1%;
+
+     text-align: center;
+
+     align-items: center;
+
+     vertical-align: middle;
+
+     }
+
+	.buttonpk{  position: relative;
+
+  height: 55px;
+
+  width: 250px;
+
+  margin: 0 50px;
+
+  border-radius: 7px;
+
+  border: none;
+
+  outline: none;
+
+  background:#393e61;
+
+  color: #fff;
+
+  font-size: 30px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+}
